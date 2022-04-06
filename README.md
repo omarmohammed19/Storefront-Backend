@@ -39,8 +39,9 @@ npm
 * 8- Run `GRANT ALL PRIVILEGES ON DATABASE storefront_test TO customer;`
 
 # Executing the Project
-* 1- `db-migrate up`
-* 2- `npm run watch`
+* 1- `npm install`
+* 2- `db-migrate up`
+* 3- `npm run watch`
 
 ## Info to run the APIs are available in the REQUIRMENTS file
 [REQUIRMENTS.md](REQUIRMENTS.md)
