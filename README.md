@@ -18,8 +18,8 @@ tsc-watch
 typescript
 
 # Scripts
-"build": "npx tsc",
-"prettier": "prettier .prettierrc.json --write src/**/*.ts",
+* "build": "npx tsc",
+* "prettier": "prettier .prettierrc.json --write src/**/*.ts",
 "lint": "eslint   src/**/*.ts",
 "jasmine": "jasmine",
 "db_test": "npm run build && npm run jasmine",
