@@ -43,7 +43,7 @@ npm
 * 2- `db-migrate up`
 * 3- `npm run watch`
 
-## Info to run the APIs are available in the REQUIRMENTS file
+## Info about the APIs are available in the REQUIRMENTS file
 [REQUIRMENTS.md](REQUIRMENTS.md)
 
 # Testing the project
