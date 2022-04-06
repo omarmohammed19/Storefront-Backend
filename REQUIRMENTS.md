@@ -49,20 +49,20 @@ Json Body
 
 ### Data Shapes
 ## Product
-id
-name
-price
+* id
+* name
+* price
 
 
 ## User
-id
-firstName
-lastName
-password
+* id
+* firstName
+* lastName
+* password
 
 ## Orders
-id
-id of each product in the order
-quantity of each product in the order
-user_id
-status of order (active or complete)
+* id
+* id of each product in the order
+* quantity of each product in the order
+* user_id
+* status of order (active or complete)
