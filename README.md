@@ -43,6 +43,9 @@ npm
 * 2- `db-migrate up`
 * 3- `npm run watch`
 
+### Running Ports 
+After start up, the server will start on port `3000` and the database on port `5432`
+
 ## Info about the APIs are available in the REQUIRMENTS file
 [REQUIRMENTS.md](REQUIRMENTS.md)
 
