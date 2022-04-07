@@ -58,12 +58,11 @@ Json Body
 * id
 * name
 * price
-*    Column  |            Type        |
-*  ----------+------------------------+
-*   id       | integer                |
-*   name     | character varying(100) |
-*   price    | integer                |
-*   category | character varying(50)  |
+* Table Schema
+    * id (integer)
+    * name character varying(100))
+    * price (integer)
+    * category (character varying(50))
 
 
 ## User
@@ -71,31 +70,28 @@ Json Body
 * firstName
 * lastName
 * password
-*        Column    |            Type        |
-* -----------------+------------------------+
-*  id              | integer                |
-*  firstname       | character varying(100) |
-*  lastname        | character varying(100) |
-*  password_digest | character varying(200) |
+* Table Schema
+    *  id (integer)
+    *  firstname (character varying(100))
+    *  lastname (character varying(100))
+    *  password_digest (character varying(200))
 
 ## Orders
 * id
 * user_id
 * status of order (active or complete)
-*    Column|          Type           |
-*  ---------+------------------------+
-*   id      | integer                |
-*   user_id | bigint                 |
-*   status  | character varying(100) |
+* Table Schema
+    *   id (integer)
+    *   user_id (bigint)
+    *   status (character varying(100))
  
 ## [Added] order_products
 * id
 * quantity
 * order_id
 * product_id
-*     Column   |  Type   |
-*  ------------+---------|
-*   id         | integer |
-*   quantity   | integer |
-*   order_id   | bigint  |
-*   product_id | bigint  |
+* Table Schema
+    *   id (integer)
+    *   quantity (integer)
+    *   order_id (bigint)
+    *   product_id (bigint)
