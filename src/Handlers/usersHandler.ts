@@ -7,6 +7,11 @@ dotenv.config();
 
 const makeUser = new UserStore();
 
+const {
+    TOKEN_SECRET
+} = process.env
+
+
 const index = async (req: Request, res: Response) => {
     try {
         const authorizationHeader = req.headers.authorization
@@ -49,8 +54,10 @@ const show = async (req: Request, res: Response) => {
 const create = async (req: Request, res: Response) => {
     try {
         const user = req.body;
+        //@ts-ignore
+        var token = jwt.sign({ user: user }, TOKEN_SECRET)
         const newUser = await makeUser.create(user);
-        res.json(user)
+        res.json(token)
     } catch (error) {
         res.status(400)
         res.send(error)
