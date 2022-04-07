@@ -46,6 +46,11 @@ npm
 ## Info about the APIs are available in the REQUIRMENTS file
 [REQUIRMENTS.md](REQUIRMENTS.md)
 
+## Tokens and Authorization
+* Tokens are passed along with the http header
+* Authorization is Bearer
+* When creating a user you are provided with a token to be able to test other endpoints that require a token
+
 # Testing the project
 * 1- `npm run test`
 
